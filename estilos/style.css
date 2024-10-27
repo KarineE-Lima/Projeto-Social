@@ -47,11 +47,11 @@ section#redes-sociais img{
     margin: 10px; 
     border-radius: 50%; /*deixando as logos redondas*/
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.452);
-    box-sizing: border-box;
+    box-sizing: border-box; /*a borda vai ser incluída no tamanho da imagem*/
 }
 section#redes-sociais img:hover{
     border: 2px solid rgba(255, 255, 255, 0.61);
-    transform: translate(-4px, -4px);
+    transform: translate(-3px, -3px); /*ele vai se mover para a esquerda e para cima*/
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.658);
     transition: transform 0.5s, border 1s;
 }
