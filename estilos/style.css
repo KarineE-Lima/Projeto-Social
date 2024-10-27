@@ -34,9 +34,9 @@ section#telefone{
 }
 iframe#tela {
     position: relative; /*para mecher no top e left*/
-    top: 55px;  /*posicionando o iframe*/
-    left: 16px;
-    width: 191px; /*largura certa*/
+    top: 56px;  /*posicionando o iframe*/
+    left: 15px;
+    width: 192px; /*largura certa*/
     height: 340px; /*altura certa*/
 }
 section#redes-sociais{
